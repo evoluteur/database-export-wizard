@@ -1,0 +1,113 @@
+/* ######### CSS for Evolutility web site & web control ######### */
+/*  www.evolutility.org - (c) Olivier Giulieri 2010  */
+
+
+span.Steps span{
+  border:0;
+  background-color :transparent; 
+  background-image:url(PixEvo/1to9.gif);
+  background-repeat:no-repeat; 
+  height:18px;width:18px;
+	padding-right:18px;
+  } 
+span.Steps .n1{background-position:0 0;}
+span.Steps .n2{background-position:-20px 0;}
+span.Steps .n3{background-position:-40px 0;}
+span.Steps .n4{background-position:-60px 0;}
+span.Steps .ns1{background-position:0 -20px;}
+span.Steps .ns2{background-position:-20px -20px;}
+span.Steps .ns3{background-position:-40px -20px;}
+span.Steps .ns4{background-position:-60px -20px;}
+span.Steps .nd1{background-position:0 -40px;}
+span.Steps .nd2{background-position:-20px -40px;}
+span.Steps .nd3{background-position:-40px -40px;}
+span.Steps .nd4{background-position:-60px -40px;}
+
+/* ######### Evolutility.org ######### */
+BODY {
+	margin: 0;
+	padding: 0; 
+	background-color: #fff; 
+	color:#3c3c3c; 
+}
+BODY, td,input,textarea,select{ 
+	font-size: 11pt;
+	font-family: "Century Gothic",arial;	
+}
+h1,h2,h3,h4,.Title{
+	color: #33608C;	
+	font-family:"Century Gothic",arial, serif;
+	margin: 5px 0 5px 0;	
+	font-weight:normal;
+}
+A,A:visited,A:active{
+	COLOR: #0066CC;}
+A:hover{
+	COLOR: #FF6600; 
+	text-decoration:underline;}
+div.Evo{
+	width:100%;
+	margin:0;
+	padding:0;
+	border-collapse:collapse;
+    border:solid 1px #bbbbbb; 
+    background-color: #F5F5F5; 
+	}
+div.Evo TR{vertical-align:top} 
+.Panel{ 
+    filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FAFAFA,endColorStr=Gainsboro); 
+    border:solid 1px #bbbbbb; 
+    background-color:#F3F3F3;
+} 
+.PanelLabel{
+	background: #DEE7F7 url(PixEvo/bg_pnl_lbl.gif);
+	padding-bottom:0; 
+	position:relative; 
+	font-size:larger
+}
+.Holder,.Holder2{
+	border-collapse:collapse;
+	border:0;
+	width:100%;
+}
+.Holder tr td{
+	padding: 2px 3px 2px 3px;
+	vertical-align:top;
+}
+.FieldLabel{
+	color:#404040;
+	font-size: smaller ;
+    width:100%;
+}
+.Field, .FieldView, .FieldReadOnly{
+	color:#000000;
+	background-color:#FFFFFF; 
+    width:100%;  
+	text-align:left; 
+}
+.Field{
+	padding-left:2px;
+	border-width:2px;
+	width:100%;
+}
+.FieldView, .FieldReadOnly
+{ 
+	padding-left:3px;
+	border-style:  none;	 
+}
+.Button,.Button2{
+	background: #EDEDED url(PixEvo/bg_bttn.gif);
+	border: solid 1px #cccccc;
+	padding:2;
+	margin:5;
+	height:40px;
+	color:#5E5E5E;
+	cursor:hand;
+	border-radius: 5px 5px;
+} 
+.Button{
+	font-weight:bolder;
+} 
+.bSpace{
+	width:20px
+} 
