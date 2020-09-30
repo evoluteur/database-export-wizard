@@ -9,19 +9,19 @@ It guides users through a few simple steps to choose a database object (table, v
 
 Select table, view or SQL query to export data from.
 
-![Screenshot1](https://raw.githubusercontent.com/evoluteur/evolutility-ui-react/master/screenshots/step1.gif)
+![Screenshot1](https://raw.githubusercontent.com/evoluteur/database-export-wizard/master/screenshots/step1.gif)
 
 ### Step 2: Columns to include
 
 Select columns to include in the export and sorting options.
 
-![Screenshot2](https://raw.githubusercontent.com/evoluteur/evolutility-ui-react/master/screenshots/step2.gif)
+![Screenshot2](https://raw.githubusercontent.com/evoluteur/database-export-wizard/master/screenshots/step2.gif)
 
 ### Step 3: Export format and options
 
 This last step is for selecting the export format and options.
 
-![Screenshot2](https://raw.githubusercontent.com/evoluteur/evolutility-ui-react/master/screenshots/step3.gif)
+![Screenshot2](https://raw.githubusercontent.com/evoluteur/database-export-wizard/master/screenshots/step3.gif)
 
 
 Documentation in the [CodeProject article](https://www.codeproject.com/Articles/82674/Database-Export-Wizard-for-ASP-NET-and-SQL-Server) winner of Best VB.NET article of May 2010.
